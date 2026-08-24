@@ -59,6 +59,13 @@
 - Screenshot of successful commit  
 - Screenshot of successful push  
 - Screenshot of the file on GitHub
+**Answer**:
+  <img width="2742" height="1656" alt="Screenshot 2026-08-24 170529" src="https://github.com/user-attachments/assets/228ae070-3f85-47e6-ab82-1b84eb4c4a21" />
+ <img width="2876" height="1758" alt="Screenshot 2026-08-24 164523" src="https://github.com/user-attachments/assets/e3203c8b-f1f4-4244-9443-87983866ea6b" />
+<img width="2880" height="1674" alt="Screenshot 2026-08-24 164538" src="https://github.com/user-attachments/assets/37bb0278-a820-488b-a831-4dba49ed7075" />
+<img width="2880" height="1762" alt="Screenshot 2026-08-24 164554" src="https://github.com/user-attachments/assets/2f19d7e7-4944-4cec-8821-258d2bccf9c7" />
+
+
 
 
   ### Assignment 4: Command Flow & Movement
