@@ -80,6 +80,10 @@
    **Answer**:
   <img width="3072" height="677" alt="IMG_20260823_214049267_HDR" src="https://github.com/user-attachments/assets/6d432a6b-91e9-41e5-a511-70fc5c015df4" />
 <img width="4096" height="3072" alt="IMG_20260823_214129747_HDR" src="https://github.com/user-attachments/assets/7b5393e7-c580-415e-a7a9-3b809767bdc4" />
+<img width="1412" height="1288" alt="Screenshot 2026-08-24 090849" src="https://github.com/user-attachments/assets/e8476169-93e1-48d4-b955-c28a64085fbe" />
+<img width="2537" height="1088" alt="Screenshot 2026-08-24 090914" src="https://github.com/user-attachments/assets/032e5160-83f1-4626-a0ce-269207c4ceeb" />
+
+<img width="1533" height="321" alt="Screenshot 2026-08-24 090940" src="https://github.com/user-attachments/assets/33e021dc-0d8b-428e-8257-7acc1b95bee1" />
 
 
 
@@ -104,6 +108,9 @@
 **Submission:** Written answers
 
 **Answer**:
+<img width="4096" height="3072" alt="IMG_20260823_214133698_HDR" src="https://github.com/user-attachments/assets/bfd7ba3b-3a88-417d-9352-b9f3b2d7c861" />
+<img width="4096" height="3072" alt="IMG_20260823_214139818_HDR" src="https://github.com/user-attachments/assets/3c79b5f3-4cf0-4049-adf2-98d14f017933" />
+
 
 
 
