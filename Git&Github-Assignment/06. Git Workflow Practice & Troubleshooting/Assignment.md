@@ -45,3 +45,9 @@ Submit the following:
 **Note:** Make sure your repository is public (or accessible to the mentor) so the submission can be verified.
 
 **Answer**:
+[https://github.com/yamraj18/day-5-repo.git]
+<img width="2876" height="1758" alt="Screenshot 2026-08-24 164523" src="https://github.com/user-attachments/assets/4a54076d-0bee-41d9-8bf7-088b2ba54d8e" />
+<img width="2880" height="1674" alt="Screenshot 2026-08-24 164538" src="https://github.com/user-attachments/assets/51e04999-2185-4315-b901-af1cb4ccc9dc" />
+<img width="2880" height="1762" alt="Screenshot 2026-08-24 164554" src="https://github.com/user-attachments/assets/4a17b6cf-5ab9-42de-a584-fad5d0174c24" />
+
+
