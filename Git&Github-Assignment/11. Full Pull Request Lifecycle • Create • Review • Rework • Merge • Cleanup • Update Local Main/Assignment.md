@@ -72,3 +72,44 @@
 **Submit:** PR link showing review comment + rework commit, plus merged PR screenshot.
 
 **Answer**
+{https://github.com/anandkaushikcg/Git-PR-Request/pull/1}
+<img width="2418" height="1584" alt="Screenshot 2026-09-19 170251" src="https://github.com/user-attachments/assets/20e75634-95ed-4b78-b8f3-2c6a4f3335c7" />
+<img width="2808" height="1536" alt="Screenshot 2026-09-19 165845" src="https://github.com/user-attachments/assets/a715d5f4-e1cd-4967-aef7-f589ff131440" />
+
+
+### Assignment 3 – `feature/navbar` Independent Full Cycle (Mandatory)
+
+**Goal:** Independently complete one more full PR lifecycle.
+
+1. Create `feature/navbar` branch from updated main.
+2. Create `navbar.html` with a heading and 3–4 lines describing what a navigation bar contains (Home, About, Contact, etc.).
+3. Commit, push, open PR with a clear title and description.
+4. Merge the PR on GitHub.
+5. Delete remote branch.
+6. Update local main using:  
+   ```bash
+   git fetch origin main
+   git merge origin/main
+   ```
+7. Delete local branch with `git branch -d feature/navbar`.
+8. Run `git log --oneline -10` and take a screenshot showing the merge commits from the features you completed.
+
+**Submit:** Merged PR link + screenshot of `git log --oneline`.
+
+**Answer**
+{https://github.com/anandkaushikcg/Git-PR-Request/pull/2}
+<img width="2132" height="922" alt="image" src="https://github.com/user-attachments/assets/af4e124d-d1e5-49fd-a780-520f92263b98" />
+
+### Assignment 4 – Short Reflection (Mandatory)
+
+Write answer **in your own words** in your notebook:
+
+- Why do we push new commits to the **same** feature branch after a review instead of creating a new PR?
+- What is the difference between deleting a remote branch and deleting a local branch?
+- Why must we run `git fetch` + `git merge` (or `git pull`) after merging a PR on GitHub?
+- Write the full sequence of commands you used to update local main and delete the local feature branch.
+
+**Submit:** Photos of the hand written answers of the above questions.
+
+**Answer**
+
