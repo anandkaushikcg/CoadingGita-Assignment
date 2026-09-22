@@ -113,3 +113,4 @@ Write answer **in your own words** in your notebook:
 
 **Answer**
 
+<img width="2543" height="3653" alt="38eb6668-5f8b-42bf-83fd-96fd6d330843~1" src="https://github.com/user-attachments/assets/712a291d-9935-4dc6-9999-a948af77ca12" />
