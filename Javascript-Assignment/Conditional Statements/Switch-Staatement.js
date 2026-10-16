@@ -113,9 +113,34 @@ switch (fruit) {
 } //output: apple is red , mango is yellow, banana is yellow, unknown fruit reason syntax is not correct break tag is not use so that why all will be print.
 
 
+// Question 7
 
+let value = "0";
 
+switch (value) {
+    case 0:
+        console.log("Number zero");
+        break;
 
+    case "0":
+        console.log("String zero");
+        break;
+
+    case false:
+        console.log("Boolean false");
+        break;
+
+    case null:
+        console.log("Null value");
+        break;
+
+    case undefined:
+        console.log("Undefined value");
+        break;
+
+    default:
+        console.log("Unknown value");
+}
 
 
             
