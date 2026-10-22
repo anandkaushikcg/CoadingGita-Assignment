@@ -88,7 +88,16 @@ console.log(bag)
 
 // Q8) Write a for loop that prints the first 20 Fibonacci numbers (starting with 0 and 1).
 
-
+let a=0;
+let b=1;
+let FibonacciSeries="0 1";
+for(let i=1; i<=18; i++){
+    let c =a+b;
+    FibonacciSeries+=c + " ";
+    a=b;
+    b=c;
+}
+console.log(FibonacciSeries);
 
 
 
