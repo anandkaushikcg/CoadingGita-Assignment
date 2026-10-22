@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Device Control Page</title>
+
+    <style>
+        .box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        iframe {
+            width: 45%;
+            height: 350px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Device Control</h2>
+
+    <div class="box">
+        <iframe
+            src="https://device.example.com"
+            title="USB Device"
+            allow="usb">
+        </iframe>
+
+        <iframe
+            src="https://demo.example.com"
+            title="Gyroscope Demo"
+            allow="gyroscope">
+        </iframe>
+    </div>
+
+</body>
+</html>
