@@ -121,5 +121,15 @@ console.log(count)
 
 
 // Q10) Write a for loop that converts a decimal number to its binary representation (without using built-in methods like toString(2))
+let numb = 49;
+let binary = ""
+for( ; num!=0; ){
+    let remainder = numb%2;
+    binary= remainder+binary;
+    numb= Math.floor(num/2);
+};
+console.log(binary);
+
+
 
 
