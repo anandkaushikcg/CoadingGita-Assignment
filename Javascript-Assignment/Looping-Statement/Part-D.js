@@ -69,14 +69,14 @@ if (num===reverse){
 // Q6) Given an array [12, 45, 7, 23, 56, 89, 34], use a reverse for loop to find the largest number that is less than 50 (do not use any built-in methods).
 
 
-let arr = [12, 45, 7, 23, 56, 89, 34]
-let largest = 0
-for (let i=arr.length-1; i>=0; i--){
-    if (arr[i]>largest && arr[i]<=50){
-        largest = arr[i]
+let arr =[12,45,7,23,56,89,34];
+let max = -Infinity;
+for (let i=arr.length-1; i>=0; i-- ){
+    if (arr[i]>max && arr[i]<50){
+        max=arr[i]
     }
 }
-console.log(largest)
+console.log(max)
 
 
 // Q7) Given an array of temperatures [32, 28, 41, 19, 35, 27, 38], use a reverse for loop to count how many days were colder than 30°C, starting from the last day.
