@@ -31,16 +31,16 @@ console.log("Sum =", sum);
 
 // Write a do-while loop to calculate the product of all digits of a given positive integer.
 
-let num = 234;
-let product = 1;
+// let num = 234;
+// let product = 1;
 
-do {
-    let digit = num % 10;
-    product *= digit;
-    num = Math.floor(num / 10);
-} while (num > 0);
+// do {
+//     let digit = num % 10;
+//     product *= digit;
+//     num = Math.floor(num / 10);
+// } while (num > 0);
 
-console.log(product);
+// console.log(product);
 
 
 // Write a do-while loop to find the leftmost digit of a given positive integer.
