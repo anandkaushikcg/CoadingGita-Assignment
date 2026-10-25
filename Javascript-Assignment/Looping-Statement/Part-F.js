@@ -100,3 +100,34 @@ if (original === reverse) {
 }
 
 
+// Write a do-while loop to find the greatest common divisor of two positive integers.
+
+let a = 48;
+let b = 18;
+
+do {
+    let remainder = a % b;
+    a = b;
+    b = remainder;
+} while (b !== 0);
+
+console.log(a);
+
+// Write a do-while loop to convert a non-negative decimal integer into binary without using built-in conversion methods.
+
+let num = 13;
+
+if (num === 0) {
+    console.log(0);
+} else {
+    let binary = "";
+
+    do {
+        binary = (num % 2) + binary;
+        num = Math.floor(num / 2);
+    } while (num > 0);
+
+    console.log(binary);
+}
+
+
