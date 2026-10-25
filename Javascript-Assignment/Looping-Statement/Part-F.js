@@ -43,4 +43,16 @@ do {
 console.log(product);
 
 
+// Write a do-while loop to find the leftmost digit of a given positive integer.
+let lastdigit= 58372;
+
+do {
+    if (lastdigit < 10) {
+        console.log(lastdigit);
+    }
+    num = Math.floor(lastdigit / 10);
+} while (lastdigit > 0);
+
+
+
 
