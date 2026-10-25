@@ -53,6 +53,20 @@ do {
     num = Math.floor(lastdigit / 10);
 } while (lastdigit > 0);
 
+// Write a do-while loop to calculate the power of a number without using Math.pow() or the exponentiation operator **.
+
+// let base = 3;
+// let exponent = 4;
+
+// let result = 1;
+// let i = 1;
+
+// do {
+//     result *= base;
+//     i++;
+// } while (i <= exponent);
+
+// console.log(result);
 
 
 
