@@ -68,5 +68,16 @@ do {
 
 // console.log(result);
 
+// Write a do-while loop to print all numbers between 1 and 100 that are divisible by 4 but not by 8.
+
+
+let number = 1;
+
+do {
+    if (number % 4 === 0 && number % 8 !== 0) {
+        console.log(number);
+    }
+    number++;
+} while (number <= 100);
 
 
