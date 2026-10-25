@@ -28,3 +28,19 @@ do {
 console.log("Sum =", sum);
 
 
+
+// Write a do-while loop to calculate the product of all digits of a given positive integer.
+
+let num = 234;
+let product = 1;
+
+do {
+    let digit = num % 10;
+    product *= digit;
+    num = Math.floor(num / 10);
+} while (num > 0);
+
+console.log(product);
+
+
+
