@@ -81,3 +81,22 @@ do {
 } while (number <= 100);
 
 
+// Write a do-while loop to check whether a given positive integer is a palindrome without converting it into a string.
+
+let positiveInteger = 1221;
+let original = num;
+let reverse = 0;
+
+do {
+    let digit = positiveInteger % 10;
+    reverse = reverse * 10 + digit;
+    num = Math.floor(positiveInteger / 10);
+} while (positiveInteger> 0);
+
+if (original === reverse) {
+    console.log("Palindrome number");
+} else {
+    console.log("Not a palindrome");
+}
+
+
