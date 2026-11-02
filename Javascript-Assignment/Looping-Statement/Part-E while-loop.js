@@ -109,3 +109,18 @@
 // else:
 //     print("Not a palindrome number")
 
+// Write a while loop to convert a positive decimal integer into its binary representation without using built-in methods such as toString(2).
+
+// num = int(input("Enter a positive number: "))
+
+// binary = ""
+
+// while num > 0:
+//     rem = num % 2
+//     binary = str(rem) + binary
+//     num //= 2
+
+// print(binary)
+
+
+
