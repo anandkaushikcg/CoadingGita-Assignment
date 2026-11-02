@@ -77,3 +77,20 @@
 //     if i % 3 == 0 and i % 5 == 0 and i % 7 != 0:
 //         print(i, end=" ")
 //     i += 1
+
+// Write a while loop to calculate the factorial of a given non-negative integer.
+
+// num = int(input("Enter a number: "))
+
+// fact = 1
+// i = 1
+
+// while i <= num:
+//     fact *= i
+//     i += 1
+
+// print("Factorial =", fact)
+
+
+
+
