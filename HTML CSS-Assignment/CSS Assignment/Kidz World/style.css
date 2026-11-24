@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    width: 100%;
+    /* overflow: hidden; */
+    align-items: center;
+    /* padding: 0 2.5vw; */
+}
+#cart-items{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+#cart-items>h3{
+    text-wrap-mode: nowrap;
+}
+#nav>img[alt="kw-logo"]{
+    height: 36px;
+    /* border: 1px solid #000; */
+}
+#hero {
+    background-image: url(Assets/kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    /* border: 1px solid #000; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    padding-left: 2.5vw;
+    width: 100%;
+    font-size: 24px;
+}
+
+#books,#handmade,#games {
+    display: flex;
+    /* border: 1px solid #000; */
+    flex-direction: column;
+    padding: 0 2.5vw;
+    margin-top: 2vw;
+    /* flex: 1 1 auto; */
+}
+#books >h1,
+#handmade >h1,
+#games >h1{
+    font-size: 28px;
+}
+
+.cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+}
+.cards>h2:nth-child(3){
+    color: gray;
+    font-size: 16px;
+    font-weight: normal;
+}
+.cards>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards>h2:first-of-type{
+    font-size: 20px;
+}
+.cards>div>h1{
+    font-size: 20px;
+    font-weight: 1000;
+}
+.cards>div button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: #6196ff;
+    padding: 8px 10px;
+    border-radius: 0.5em;
+    font-weight: 1000;
+    font-size: 18px;
+}
+#games .cards> img{
+    width: 18vw;
+    object-fit: contain;
+}
+#handmade .cards> img{
+    width: 18vw;
+    object-fit: contain;
+}
+
+@media (max-width:400px) {
+    #nav{
+        width: 50%;
+    }
+    #nav>img[alt="kw-logo"]{
+        height: 36px;
+    }
+    .cards-container{
+        flex-wrap: wrap;
+        gap: 2vw 1.1vw;
+        overflow: visible;
+    }
+    #games .cards, #handmade .cards {
+        width: 40%;
+    }
+    #games .cards> img, #handmade .cards >img{
+        height: 100%;
+        width: 100%;
+    }
+}
