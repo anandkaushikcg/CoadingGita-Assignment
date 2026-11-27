@@ -16,3 +16,41 @@ def display_student_card(name, age, course):
 display_student_card("Rahul", 18, "B.Tech")
 display_student_card("Priya", 19, "BCA")
 display_student_card("Aman", 20, "B.Sc")
+
+
+def calculate_square(number):
+    print("Square:", number ** 2)
+
+
+def calculate_cube(number):
+    print("Cube:", number ** 3)
+
+
+def calculate_double(number):
+    print("Double:", number * 2)
+
+
+
+for n in (2, 4, 5):
+    calculate_square(n)
+    calculate_cube(n)
+    calculate_double(n)
+    print()
+
+
+def calculate_simple_interest(principal, rate, time):
+    interest = (principal * rate * time) / 100
+    amount = principal + interest
+    print("Principal:", principal)
+    print("Rate: " + str(rate) + "%")
+    print("Time:", time, "years")
+    print("Simple Interest:", f"{interest:g}")
+    print("Total Amount:", f"{amount:g}")
+
+
+print("--- Q4 ---")
+calculate_simple_interest(5000, 5, 2)
+print()
+calculate_simple_interest(10000, 7, 3)
+print()
+calculate_simple_interest(2500, 4, 1)    
