@@ -37,20 +37,26 @@ for n in (2, 4, 5):
     calculate_double(n)
     print()
 
-
 def calculate_simple_interest(principal, rate, time):
-    interest = (principal * rate * time) / 100
-    amount = principal + interest
-    print("Principal:", principal)
-    print("Rate: " + str(rate) + "%")
-    print("Time:", time, "years")
-    print("Simple Interest:", f"{interest:g}")
-    print("Total Amount:", f"{amount:g}")
+    print("Principal:",principal)
+    print("Rate:",rate)
+    print("Time:",time)
+    SI = principal*time*rate/100
+    print("Simple Interest:",SI)
+    total = principal+SI
+    print("Total Amount:",total)
+
+calculate_simple_interest(5000,5,2)
+calculate_simple_interest(10000,7,3)
 
 
-print("--- Q4 ---")
-calculate_simple_interest(5000, 5, 2)
-print()
-calculate_simple_interest(10000, 7, 3)
-print()
-calculate_simple_interest(2500, 4, 1)    
+def check_even_odd(number):
+    if number%2==0:
+        print(f"{number} is even number")
+    else:
+        print(f"{number} is odd number")
+
+check_even_odd(12)
+check_even_odd(7)   
+
+
