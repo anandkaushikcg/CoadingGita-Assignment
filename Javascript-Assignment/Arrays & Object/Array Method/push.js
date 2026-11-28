@@ -15,3 +15,10 @@ arr.push(10)
 arr.push(15)
 console.log(arr)
 
+// Q3) Create an array `["Pen", "Book"]`. Add `"Eraser"` and `"Scale"` using a single `push()` call and print the result.
+
+
+const stationary = ["Pen", "Book"];
+stationary.push("Eraser", "Scale")
+console.log(stationary)
+
